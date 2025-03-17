@@ -7,4 +7,8 @@ go
 create user 'root'@'172.19.0.1' identified by '12345678';
 grant all privileges ON *.* to 'root'@'172.19.0.1' with grant option;
 flush privileges;
-go
+go 
+create user 'root'@'172.21.0.1' identified by '12345678';
+grant all privileges ON *.* to 'root'@'172.21.0.1' with grant option;
+flush privileges;
+go 
